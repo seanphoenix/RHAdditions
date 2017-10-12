@@ -33,6 +33,7 @@
 @interface RHWeakValue () {
     __weak id _weakValue;
 }
+@end
 
 @implementation RHWeakValue
 @synthesize weakValue=_weakValue;
